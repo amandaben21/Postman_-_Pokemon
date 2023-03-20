@@ -1,0 +1,163 @@
+// 5 different GET requests to retrieve 5 different pokemon
+
+https://pokeapi.co/api/v2/pokemon/jigglypuff
+https://pokeapi.co/api/v2/pokemon/dratini
+https://pokeapi.co/api/v2/pokemon/chikorita
+https://pokeapi.co/api/v2/pokemon/togepi
+https://pokeapi.co/api/v2/pokemon/pikachu
+
+
+Jigglypuff:
+    "abilities": [
+        {
+            "ability": {
+                "name": "cute-charm",
+                "url": "https://pokeapi.co/api/v2/ability/56/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "competitive",
+                "url": "https://pokeapi.co/api/v2/ability/172/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "friend-guard",
+                "url": "https://pokeapi.co/api/v2/ability/132/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 95,
+    "forms": [
+        {
+            "name": "jigglypuff",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/39/"
+        }
+    ],
+
+
+Dratini:
+    "abilities": [
+        {
+            "ability": {
+                "name": "shed-skin",
+                "url": "https://pokeapi.co/api/v2/ability/61/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "marvel-scale",
+                "url": "https://pokeapi.co/api/v2/ability/63/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 60,
+    "forms": [
+        {
+            "name": "dratini",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/147/"
+        }
+    ],
+
+
+Chikorita:
+    "abilities": [
+        {
+            "ability": {
+                "name": "overgrow",
+                "url": "https://pokeapi.co/api/v2/ability/65/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "leaf-guard",
+                "url": "https://pokeapi.co/api/v2/ability/102/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 64,
+    "forms": [
+        {
+            "name": "chikorita",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/152/"
+        }
+    ],
+
+
+Togepi:
+    "abilities": [
+        {
+            "ability": {
+                "name": "hustle",
+                "url": "https://pokeapi.co/api/v2/ability/55/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "serene-grace",
+                "url": "https://pokeapi.co/api/v2/ability/32/"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+        {
+            "ability": {
+                "name": "super-luck",
+                "url": "https://pokeapi.co/api/v2/ability/105/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 49,
+    "forms": [
+        {
+            "name": "togepi",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/175/"
+        }
+    ],
+
+
+Pikachu:
+    "abilities": [
+        {
+            "ability": {
+                "name": "static",
+                "url": "https://pokeapi.co/api/v2/ability/9/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        },
+        {
+            "ability": {
+                "name": "lightning-rod",
+                "url": "https://pokeapi.co/api/v2/ability/31/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+    ],
+    "base_experience": 112,
+    "forms": [
+        {
+            "name": "pikachu",
+            "url": "https://pokeapi.co/api/v2/pokemon-form/25/"
+        }
+    ],
